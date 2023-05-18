@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head> <h1> Operating Systems</h1></head>
+    <body>
+        <div>
+            <p>
+                There are two main parts to an operating system, the kernel and the user space. 
+                The kernel is the main core of an operating system. It talks directly to our hardware and manages our system's resources. 
+                kernel functions include file management, program/resource management by using process scheduler, memory management, inputoutput IO management 
+            </p>
+        </div>
+        <div>
+            <p>
+                <h2> file management</h2> <br>
+                There are three main components to handling files handlers, the file data, metadata, and file system.
+                file system : eg NTFS includes many features like encryption, faster access speeds, security, and more. for windows
+                EX T4, for Linux,  which is compatible with older EXT file systems. 
+                A file extension is the appended part of a filename that tells us what type of file it is in certain operating systems. eg JPG.
+
+            </p>
+        </div>
+        <div> <h2> Process management</h2> <br>
+            <p>
+                A process is a program that's executing, A program is an application that we can run.
+                The CPU executes processes one-by-one through something known as a time slice.
+                 A time slice is a very short interval of time that gets allocated to a process for CPU execution. 
+                 The kernel creates processes, efficiently schedules them, and manages how processes are terminated
+            </p>    
+
+        </div>
+        <div> <h2> Memory management and virtual memory </h2><br>
+            <p>
+                Virtual memory is the combination of hard drive space and RAM that acts like memory that our processes can use. 
+                When we execute a process, we take the data of the program in chunks we call pages.
+                We store these pages in virtual memory. If we want to read and execute these pages, they have to be sent to physical memory or RAM.
+            </p>
+            <p> 
+                When we store our virtual memory on our hard drive, we call the allocated space swap space. When we get into practical applications of disk partitioning, we'll allocate space for swap. 
+                The kernel takes care of all of this for us. It handles the process of taking pages of data and swapping them between RAM and virtual memory.
+                But, the Kernel isn't the only hard worker around. You've done great getting through the lessons so far. 
+            </p>
+        </div>
+        <div> <h2> I/O management</h2> <br>
+        <p>
+            kernel handles input and output. 
+            I/O devices include monitors, keyboards, mice, hard disk drives, speakers, Luther's headsets, webcams and network adapters.
+            the kernel needs to be able to load up drivers that are used so that we can recognize and speak to these different types of hardware.
+             When the kernel is able to start the drivers to communicate with hardware, it also manages the transfer of data in and out of the devices.
+        </p>
+    </div>
+    <div> <h2> User Interface </h2> <br>
+        <p> 
+            There are two ways that we can interact with our OS. With a shell or graphical user interface.
+            There are also some shells that use graphical user interfaces, but we'll work with a Command Line Interface or CLI shell. <br>
+            A Graphical User Interface or GUI is a visual way to interact with the computer.
+            
+
+        </p>
+    </div>
+    <div> <h2> Logs </h2> <br>
+        <p> 
+            Logs are files that record system events on our computer, just like a system's diary. 
+            A computer will record events like when it was turned on, when a driver was loaded. And even when something isn't working in the form of error messages. 
+            In all operating systems, logs are kept so we can refer back to them when we need to find out something that happened.
+        </p>
+    </div>
+    <div> <h2> Boot process </h2> <br>
+        <p> 
+            boot process. First, the computer is powered on. The BIOS/UEFI is a low-level software that initializes our computer's hardware to make sure everything is good to go. Next, the bios UEFI runs a process called the power-on self-test, or post. The post performs a series of diagnostic tests to make sure that the computer is in proper working order. 
+            Next, depending on the bios or UEFI configuration of boot device will be selected. <br>
+            Next, the bios UEFI runs a process called the power-on self-test, or post. The post performs a series of diagnostic tests to make sure that the computer is in proper working order. <br> 
+            Next, depending on the bios or UEFI configuration of boot device will be selected. Devices that are attached to our system, like hard drives, USB drives, CD drives, etc, are configured in a certain boot order.
+              The devices will be checked in this order and the computer will search for what's known as a bootloader. 
+            <br> The bootloader is a small program that loads the operating system. Once our computer finds a bootloader on a device in the listed order, it will start to execute this program. This will then start to load a larger and more complex program and eventually loads our operating system.
+            Once the bootloader loads up our operating system, our kernel gets loaded. The kernel controls access to our computer's resources. 
+            It also loads up drivers and more so that our hardware can talk to our software. <br>
+            Next, essential system processes and user space items are launched. These include processes like user login, spinning up a desktop environment, and more which basically allows us to interact with our system. 
+            And that's it. After these simple steps, you'll be able to get to work.
+                        
+
+        </p>
+    </div>
+    <div> <h2> Boot methods  </h2> <br>
+        <p> 
+            Internal method : A computer can be partitioned into different operating systems and you can select which OS to use when booting.
+            External method :  boot from an external tool. External tools include USB drives - This drive is inserted into a USB port and chosen at startup,
+            <br> optical media - You use a disk loaded with booting resources. This disk can be a DVD, CD, or Blu-ray disk and is loaded through the computer's optical drive.
+            <br> solid state boot drives - You use a solid state drive to boot. Solid state drives do not use spinning discs or moving parts. This solid state drive can be installed in your computer or can be a smaller device such as a flash drive. 
+            <br> external hot-swappable drives - You boot from an external hard drive that can be moved between computers without turning it off. 
+            <br> network booting -  You boot the operating system directly from a local area network (LAN) without using a storage device. Your computer must be connected to a LAN for this option. 
+            <br> internet-based booting - You boot the computer from an internet source, as long as it is a secure source. Your computer must be connected to the internet for this option.
+             
+        </p>
+        <p>
+            In order to boot either Windows OS or Linux OS with an external tool, you will need to enter BIOS at startup by pressing F2/F12/Del keys.
+            From there you can change the boot order so that the first option is the external tool you want to use. 
+        </p>
+        <p>
+            If booting macOS, press and hold the Option key at startup. This will open up the Startup Manager, which will scan your computer and identify bootable devices. 
+            Then you can choose the bootable device you want to use.
+        </p>
+    </div>
+    <div> <h3> Choosing an OS </h3><br>
+        <p>
+            consider: 
+            <li>
+                organization's specifications for OS
+                software to run on the devices if it is OS specific or cross-platform 
+                hardware to be used - if supported by the OS
+                CPU compatibility with OS eg 64bit CPU is compatible with 64bit OS
+                
+            </li>
+        </p>
+     </div>
+     <div> <h3> Virtual machines </h3> <br>
+        <p> 
+            A virtual machine is just a copy of a real machine.
+            Use an application like Virtual Box to install Linux, and have it completely isolated from my machine. 
+            Virtual machines use physical resources like memory, CPU, and storage, but they offer the added benefit of running multiple operating systems at once. They're also easier to maintain and provision. 
+
+        </p>
+        <p>  If you wanted to use software that's only available on one specific OS, it's easier to create a new virtual machine. Use the software and then delete the virtual machines once you're done.</p>
+         <p> use touch command or mkdir command  to create file in linux </p>
+    </div>
+    <div> <h2> module3 glossary </h2> <br> 
+        <p>
+Android: A mobile operating system based on Linux
+
+Application: A computer program designed for a specific use
+
+BIOS/UEFI: A low-level software that initializes our computer's hardware to make sure everything is good to go
+
+Block storage: It improves faster handling of data because the data isn't stored in one long piece but in blocks, so it can be accessed more quickly
+
+Boot: To start up a computer
+
+Bootloader: A small program that loads the operating system
+
+Chrome OS: A Linux-based operating system designed by Google
+
+Command Line Interface (CLI): A shell that uses text commands to interact with the operating system
+
+Computer file: Data that we store and a file can be anything, a word document, a picture, a song, literally anything
+
+Data blocks: Data that can be broken down into many pieces and written to different parts of the hard disk
+
+Distributions: Some common Linux distributions are Ubuntu, Debian, and Red Hat
+
+Etcher.io: A tool you can use to load an install image onto your USB device and make it bootable
+
+File extension: The appended part of a filename that tells us what type of file it is in certain operating systems
+
+File handling: A process of storing data using a program
+
+File system: A system used to manage files
+
+Finder: The file manager for all Macs
+
+Folders/Directories: Used to organize files
+
+Hardware resource deficiency: It refers to the lack of system resources like memory, hard drive space, et cetera
+
+HFS+/APFS: HFS+ is a journaling system developed by Apple Inc. and APFS is another but more encrypted Apple journaling system
+
+Hostname: Used to identify the computer when it needs to talk to other computers
+
+Input/Output device: A device that performs input and output, including monitors, keyboards, mice, hard disk drives, speakers, bluetooth headsets, webcams, and network adapters
+
+Install image: A downloadable operating system image used to install an operating system on a device
+
+I/O management: Anything that can give us input or that we can use for output of data
+
+iOS: A mobile operating system developed by Apple Inc.
+
+Kernel: The main core of an operating system that creates processes, efficiently schedules them, and manages how processes are terminated
+
+Logs: Files that record system events on our computer
+
+Mac OS: Apple's operating system
+
+Memory management: One of the functions that a kernel performs; it optimizes memory usage and make sure our applications have enough memory to run
+
+Metadata: Tells us everything we need to know about a file, including who created it, when it was last modified, who has access to it, and what type of file it is
+
+Microsoft Terminal Services Client: A client program used to create RDP connections to remote computers
+
+Open SSH: The most popular program to use SSH within Linux
+
+Operating system: The whole package that manages our computers resources and lets us interact with it
+
+PC: Personal computer, which technically means a computer that one person uses
+
+Plink (PuTTY Link): A tool built into the command line after PuTTY is installed that is used to make remote SSH connections
+
+Powershell: A shell (program that interprets text commands) for Windows
+
+Power user: Above average computer users
+
+Process management: The capacity to manage the many programs in a system - when to run them, the order they run in, how many resources they take up, how long they run, etc.
+
+Qwiklabs: An online platform which provides training in cloud services
+
+Remote connection: The ability to connect an authorized person to a computer or network remotely; allows us to manage multiple machines from anywhere in the world 
+
+Remote Desktop Protocol (RDP): A secure network communication protocol developed by Microsoft that allows a user to connect to another device remotely
+
+Scalability: The measure of a system’s ability to increase or decrease in performance and cost in response to varying loads in system processing demands
+
+Shell: A program that interprets text commands and sends them to the OS to execute
+
+SSH (Secure shell): A protocol implemented by other programs to securely access one computer from another.
+
+SSH authentication key: A secure authentication method for accessing a computer from other device
+
+SSH client: A program you must have installed on your device in order to establish an SSH connection with another device
+
+SSH server: Software installed on a machine that allows for that device to accept an SSH connection
+
+Standardization: A systematic way of naming hosts
+
+Swap space: The allocated space where the virtual memory is stored on the hard drive when the amount of physical memory space is used up or full
+
+System: A group of hardware components and software components that work together to run the programs or processes in the computer
+
+System settings: Settings like display resolution, user accounts, network, devices, etc.
+
+Task bar: It gives us quick options and shows us information like network connectivity, the date, system notifications, sound etc
+
+Terminal: A text based interface to the computer
+
+Time slice: A very short interval of time that gets allocated to a process for CPU execution
+
+Ubuntu: The most popular Linux consumer distribution
+
+User name: A unique identifier for a user account
+
+User space: The aspect of an operating system that humans interact with directly like programs, such as text editors, music players, system settings, user interfaces, etc.
+
+Virtual Box: An application you can use to install Linux and have it completely isolated from your machine
+
+Virtual machine (VM): An application that uses physical resources like memory, CPU and storage, but they offer the added benefit of running multiple operating systems at once
+
+Virtual memory: A combination of hard drive space and RAM that acts like memory which our processes can use
+
+VPN (Virtual private network): A secure method of connecting a device to a private network over the internet
+        </p>
+    </div>
+    </body>
+
+</html>
