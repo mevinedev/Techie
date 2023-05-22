@@ -45,7 +45,7 @@
             kernel handles input and output. 
             I/O devices include monitors, keyboards, mice, hard disk drives, speakers, Luther's headsets, webcams and network adapters.
             the kernel needs to be able to load up drivers that are used so that we can recognize and speak to these different types of hardware.
-             When the kernel is able to start the drivers to communicate with hardware, it also manages the transfer of data in and out of the devices.
+            When the kernel is able to start the drivers to communicate with hardware, it also manages the transfer of data in and out of the devices.
         </p>
     </div>
     <div> <h2> User Interface </h2> <br>
@@ -54,9 +54,9 @@
             There are also some shells that use graphical user interfaces, but we'll work with a Command Line Interface or CLI shell. <br>
             A Graphical User Interface or GUI is a visual way to interact with the computer.
             
-
         </p>
     </div>
+    
     <div> <h2> Logs </h2> <br>
         <p> 
             Logs are files that record system events on our computer, just like a system's diary. 
@@ -64,9 +64,11 @@
             In all operating systems, logs are kept so we can refer back to them when we need to find out something that happened.
         </p>
     </div>
+    
     <div> <h2> Boot process </h2> <br>
         <p> 
-            boot process. First, the computer is powered on. The BIOS/UEFI is a low-level software that initializes our computer's hardware to make sure everything is good to go. Next, the bios UEFI runs a process called the power-on self-test, or post. The post performs a series of diagnostic tests to make sure that the computer is in proper working order. 
+        <h2> The boot process </h2>
+            First, the computer is powered on. The BIOS/UEFI is a low-level software that initializes our computer's hardware to make sure everything is good to go. Next, the bios UEFI runs a process called the power-on self-test, or post. The post performs a series of diagnostic tests to make sure that the computer is in proper working order. <br> 
             Next, depending on the bios or UEFI configuration of boot device will be selected. <br>
             Next, the bios UEFI runs a process called the power-on self-test, or post. The post performs a series of diagnostic tests to make sure that the computer is in proper working order. <br> 
             Next, depending on the bios or UEFI configuration of boot device will be selected. Devices that are attached to our system, like hard drives, USB drives, CD drives, etc, are configured in a certain boot order.
@@ -75,11 +77,10 @@
             Once the bootloader loads up our operating system, our kernel gets loaded. The kernel controls access to our computer's resources. 
             It also loads up drivers and more so that our hardware can talk to our software. <br>
             Next, essential system processes and user space items are launched. These include processes like user login, spinning up a desktop environment, and more which basically allows us to interact with our system. 
-            And that's it. After these simple steps, you'll be able to get to work.
-                        
-
+            And that's it. After these simple steps, you'll be able to get to work.                      
         </p>
     </div>
+
     <div> <h2> Boot methods  </h2> <br>
         <p> 
             Internal method : A computer can be partitioned into different operating systems and you can select which OS to use when booting.
@@ -91,10 +92,12 @@
             <br> internet-based booting - You boot the computer from an internet source, as long as it is a secure source. Your computer must be connected to the internet for this option.
              
         </p>
+        
         <p>
             In order to boot either Windows OS or Linux OS with an external tool, you will need to enter BIOS at startup by pressing F2/F12/Del keys.
             From there you can change the boot order so that the first option is the external tool you want to use. 
         </p>
+        
         <p>
             If booting macOS, press and hold the Option key at startup. This will open up the Startup Manager, which will scan your computer and identify bootable devices. 
             Then you can choose the bootable device you want to use.
