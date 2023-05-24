@@ -1,125 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Networking </title>
-    <head> Computer Networking </head>
-</head>
-<body>  
-    <div><h2>Basics of networking </h2>
-        <p>
-            Networking refers to managing, building, and designing networks. 
-            The Internet is just an interconnection of computers around the world. A network is an interconnection of computers.
-             Computers in a network can talk to each other and send data to one another. <br>
-            The Internet is the physical connection of computers and wires around the world. 
-             The web is the information on the Internet. We use it to access the Internet through a link like www.google.com.
-            
-        </p>
-        <p>
-            We don't actually connect to the Internet directly. Instead, computers called servers connect directly to the Internet.
-             Servers store the websites that we use, like Wikipedia, Google, Reddit, and BBC. These websites serve content. 
-             The machines that we use, like our mobile phones, laptops, video game consoles, and more are called clients. 
-             Clients request the content like pictures, websites from the servers. Clients don't connect directly to the Internet.
-              Instead, they connect to a network run by an Internet service provider or ISP, like CenturyLink, Level 3, Comcast, Telefonica. 
+<html>
 
-        </p>
-        <p>
-            Computers on a network have an identifier called an IP address. An IP address is composed of digits and numbers.
-        </p>
-        <p>
-            When we move data through the network, we break them down into packets. 
-        </p>
+<body>
+    <p>
+        Network standards are designed to ensure that hardware and software made by different vendors work seamlessly together.
+        Network standards provide a framework that enables the interoperability between devices.
+        Primary function of a hub- Hubs offer the simplest form of network. They allow multiple Ethernet-based network-enabled devices to communicate with each other.
+        Datagrams- packets of data.
+    </p>
+    <p>
+        Hub routing sends all packets to all connected devices. 
+        Switch routing sends packets to specific devices.
+        A router is a network device that forwards data packets between computer networks.
 
-    </div>
-    <div> <h2> Networking hardware</h2>
-        <p> 
-            Ways of connecting to a network: <br>
-         An ethernet cable which lets you physically connect to the network through a cable.
-             On the back of the desktop, there are network ports that you plug your ethernet cable into. <br>
-         Wi-Fi, which is wireless networking. <br>
-         Fiber optic cable- llow greater speeds than all the other methods,the cables contain glass fibers that move data through light instead of electricity. 
-         This means that we send ones and zeros through a beam of light instead of an electrical current through a copper wire. <br>  
-         A router- connects lots of different devices together and helps route network traffic. <br>
-         switches and hubs - devices that help our data travel. <br> 
-         Thus, network stack is all the components that makes up computer networking.  ( a network stack is  a set of hardware or software that provides the infrastructure for a computer)  
-        </p>    
-    </div>
-    <div> <h2> Network protocols </h2>
-        <p>
-            Network protocols are a set of rules for how we transfer data in a network. eg TCP/IP. 
-            The Internet Protocol, or IP, is responsible for delivering our packets to the right computers.
-            The Transmission Control Protocol, or TCP, is a protocol that handles reliable delivery of information from one network to another.
-        </p>
-    </div>
-    <div> <h2> The web</h2>
-        <p> 
-            Websites are basically text documents that we format with HTML or HyperText Markup Language.
-            Web pages contain multimedia content like text, images, audio and video. 
-            A URL which stands for Uniform Resource Locator is just a web address similar to a home address.
-            Once a domain name is registered with, ICANN, no one else can take that name unless it becomes available again.
+    </p>
+    <p>
+        A network is a collection of network-enabled devices, typically made up of computers, switches, routers, printers, and servers. Types: <br>
+        1.  personal area network (PAN) provides networking needs around an individual eg bluetooth
+        2.  local area network (LAN) provides networking needs around a single location. Are privately owned, need authentication and authorization.
+        3. wide area network (WAN) provides networking capabilities between two different geographical locations locally or worldwide eg head office and branches all over the region. may use VPN to manage connection btwn different LANs 
+        4. metropolitan area network (MAN) provides networking capabilities between two different locations within a city or metropolitan area to provide a single extensive network. 
+                
+    </p>
+    <p>
+        network topology - describes the physical composition of a network.
+        1. bus topology- each network device is connected to a single network cable. 
+        2. ring topology - each network device is connected to its neighbor to form a ring.
+        3. mesh- each network device connects to every other network device in the network.
+        4. star topology- Each network device connects to a centralized hub or switch. Most robust and scalable.
+    </p>
+    <p>
+        Network infrastructure devices: <br>
+        1. repeater- is a two-port device that repeats network signals. Repeaters are used when network devices are some distance from each other. Regenerates the data packet at the original strength, bit by bit.
+        2. bridge- divides a network into network segments, and can filter and forward data packets between these segments. improve network performance by reducing unnecessary network traffic on network segments.
+        3. Hubs- used to connect more than one device and structure the layout of a network. contain multiple ports that act as an input/output Ethernet connection between the hub and a network device. sends copies of each data packet to all attached devices.
+        4. switch combines the functionality of a bridge and a hub. It segments networks and can interpret and filter packet data to send it directly to an attached network device.operates in full-duplex mode, which means it can send and receive data to and from network devices at the same time.
+        
+    </p>
+    <p>
+        Routers link networks with different ranged addresses together. They can interpret and filter data packets, and then forward them to the correct network. 
 
-        </p>
-    </div>
-    <div> <h2> Limitations of the internet</h2>
-        <p>
-            There are actually different versions of IP addresses. <br> 
-            The current protocol, Internet protocol version four, or IPV4, is an address that consists of 32 bits separated into four groups.
-            The number of usable IP addresses is even less. <br>
-            IPV6 or Internet Protocol version 6 addresses, IPV6 addresses consists of 128 bits, four times the amount that IPV4 uses, 
-            which means way more devices can have IP addresses. The adoption of IPV6 addresses has been slow but steady.
-            With IPV6, there are two to the 128th power possible IP addresses. <br>
-            NAT or Network Address Translation.
-            This lets organizations use one public IP address and many private IP addresses within the network. 
-            Now, instead of companies using hundreds of public IP addresses, they can just use one IP address. <br>
+    </p>
+    <p>
+        network protocol is a set of conditions and rules that specify how network devices communicate on a given network. 
+        routing - mechanism used to make sure that data packets follow the correct delivery path between the sending and receiving devices on different networks.
 
-        </p>
-    </div>
-    
-    <div> <h2> glossary </h2> 
-        <p>
-            Domain name: A website name; the part of the URL following www.
-            Domain Name System (DNS): A global and highly distributed network service that resolves strings of letters, such as a website name, into an IP address
-            Hubs: Devices that serve as a central location through which data travels through
-            Switches: Devices that help our data travel
-            Network: The interconnection of computers
+    </p>
+    <p>
+        protocol categories:
+        1. network communication protocls - focus on establishing and maintaining a connection between devices.eg Transmission control protocol TCP- delivery of data packets across IP network,
+        internet protocol- guarantees packet is delivered to the given address, User datagram protocol- no need to verify if datagram has been received.
+        <li>
+            TCP- delivery of data packets across IP network <br>
+            IP- guarantees packet is delivered to the given address <br>
+            UDP - no need to verify if datagram has been received. <br>
+            HTTP -deliver web page content from a server to your browser <br>
+            FTP-  transfer files between different computers on a network - file transfer protocol <br>
+            email protocols: 
+            <li>
+                POP3- allow you to receive emails
+                SMTP- send emails
+                IMAP - manage single mailbox
+            </li>
+        </li>
+        2. Network security protocols -are designed to maintain the security of data across your network. use encryption and cryptographic principles to secure messages
+        eg secure socket layer, transport layer security, Kerberos.
+        <li>
+            SSL - provides a secure and encrypted connection between your computer and the target server.
+            TLS- designed to stop message forgery and tampering and eavesdropping -Transport layer security. 
+            HTTPS- combines TLS and SSL- hypertext transfer protocol secure
+            Secure Shell SSL- is a cryptographic network security protocol that provides a secure data connection across a network.
+            Kerberos- authentication for client-server-based applications through secret-key cryptography.
+        </li>
+        3. Network management protocols -focus on the sustainability of the network by looking at faults and performance.eg simple network management protocol SNMP- allows for the collection of data from devices on your network and the management of those devices, internet control message protocol ICMP -It allows network-connected devices to send warning and error messages, along with operation information about the success or failure of a connection request, or if a service is unavailable.
+        <li>
+            SNMP-  allows for the collection of data from devices on your network and the management of those devices. protocol that's used to gather and organize information on your IP network.
+            ICMP-used to send information about the success or failure of any network operation. allows network-connected devices to send warning and error messages, along with operation information about the success or failure of a connection request, or if a service is unavailable. 
+        </li>
 
-Network Address Translation (NAT): A mitigation tool that lets organizations use one public IP address and many private IP addresses within the network
+    </p>
+    <p>
+        port is a logical construct that allows the routing of incoming messages to specific processes. 
+        A port is an unsigned 16-bit number from 0 to 65535. The first 1,024 ports, called the well-known port numbers, are reserved for the commonly used services. The high-numbered ports, called the ephemeral ports, are unreserved and used by dedicated applications.
+    </p>
+    <p>
+        internet protocol suite - TCP/IP: <br>
+        describes the different layered protocols used to send and receive data on the internet and similar networks.
+        1. Application layer - is concerned with application or process communication. eg SMTP for email. includes HTTP, DNS, IMAP, SMTP, SNMP, SSH, TLS , SSL.
+        2. Transport layer -The protocols associated with this layer are TCP and UDP. TCP is responsible for flow control. UDP is responsible for providing a datagram service. Has TCP and UDP.
+        3. Internet layer -responsible for exchanging datagrams. A datagram contains the data from the transport layer and adds in the origin and recipient IP addresses.protocols are IP,IPV4, IPV6, ICMP, IPsec.
+        4. Network access layer -defining how the data is sent across the network.protocols eg ARP,MAC, Ethernet, digital subscriber line (DSL), and Integrated Services Digital Network (ISDN).
+    </p>
+    <p>
+        Address Resolution Protocol (ARP) -is a communications protocol within the Internet Protocol suite.
+        It is a request-response protocol used to resolve the media access control (MAC) address for a given IP address.
+    </p>
+    <p>
+        TCP/IP Is a protocol used to interconnect network devices on the internet.
+        Transmission Control Protocol/Internet Protocol is a collection of different communication protocols that support and define how network-enabled devices interconnect with each other over an IP-based network. 
+        It defines the way data is shared between network-enabled devices by defining the end-to-end communication process, also determines how the packet is addressed and transmitted, routed, and received.       
+    </p>
+    <P>
+        Internet protocol:
+        IPV4 - The structure of an IPv4 address is four decimal numbers in the range of 0 to 255 in dotted decimal format.An example is 192.168.0.1.
+         has two parts to an IP address, the network and the host, eg the last part is the host. <br>
+        A subnet is the logical subdivision of an IP-based network. <br>
+        A subnet defines one or more logical networks within the class A, B, or C network.  A subnet, or host address, represents which network or subnetwork to use.
+        A subnet is a 32-bit number framed by using the dotted-decimal format. For example, 255.255.255.0 is a standard subnet mask. Subnets allow multiple subnetworks to exist within one network. They can be used to enhance routing performance. Subnets can be arranged hierarchically to create routing trees. <br>
+        IPv6 -was created to increase the number of IP address spaces to 128 bits. Benefits include: simplified network configuration, security-inbuilt IPsec, new service support -due to eliminating need for NAT, Multicast and anycast functionality.
+        Multicast allows for the broadcast of messages in a one-to-many fashion. Anycast allows a single destination to have multiple routing paths to two or more endpoint destinations.
+        Structure of IPV6: eight groups of four hexadecimal numbers called a hexadectet. Each hexadectet is separated with a colon. A full IPv6 address looks like this: 2001:0db8:0000:0000:0000:8a2e:0370:7334.
+        all instances of zeros can be removed. thus shortened version is is 2001:db8::8a2e:370:7334.
 
-Networking: Managing, building and designing networks
+    </P>
+    <p>
+        Domain Name System DNS- s a decentralized lookup service that translates a human-readable domain name or URL into the IP address of the server that's hosting the site or service.
+        The DNS helps resolve domain names to IP addresses.
+    </p>
+    <p>
+        Accessing a private network from the internet -The private network needs special access via a gateway. A private network can access another private network by using network address translation.
 
-Networking protocols: A set of rules for how we transfer data in a network
-
-Network stack: A set of hardware or software that provides the infrastructure for a computer
-
-Router: A device that knows how to forward data between independent networks
-
-Server logs: Text files that contains recorded information about activities performed on a specific web server in a defined period of time
-
-Servers: Devices that provide data to other devices that request that data, also known as a client
-
-MAC address: A globally unique identifier attached to an individual network interface. It's a 48-bit number normally represented by six groupings of two hexadecimal numbers
-
-Uniform Resource Locator (URL): A web address similar to a home  address . 
-
-Transfer Control Protocol (TCP): A protocol that handles reliable delivery of information from one network to another.
-
-The Internet Protocol, or IP, is responsible for delivering our packets to the right computers.
-
-        </p>
-        <p> 
-            
-            Virtual Box: An application you can use to install Linux and have it completely isolated from your machine
-
-Virtual machine (VM): An application that uses physical resources like memory, CPU and storage, but they offer the added benefit of running multiple operating systems at once
-
-Virtual memory: A combination of hard drive space and RAM that acts like memory which our processes can use
-
-VPN (Virtual private network): A secure method of connecting a device to a private network over the internet
-
-
-        </p>
-    </div>
-</body>
+    </p>
+ </body>
 </html>
